@@ -1,0 +1,16 @@
+/* Minimal placeholder stylesheet for development.
+     The real UI styles are emitted to `public/css/app.css` and used by the
+     application layout. This file intentionally avoids Tailwind/Bootstrap so
+     the project follows the requirement to not rely on those frameworks.
+
+     You can add local development CSS here if you want to recompile assets
+     using your build tool (Vite) later. For now, keep it intentionally small.
+*/
+
+:root {
+    --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+body {
+    font-family: var(--font-sans);
+}
